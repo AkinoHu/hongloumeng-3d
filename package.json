@@ -1,0 +1,21 @@
+{
+  "name": "hongloumeng-3d-game",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "红楼梦3D动作游戏 - Dream of the Red Chamber 3D Action Game",
+  "scripts": {
+    "dev": "vite --host",
+    "build": "vite build",
+    "preview": "vite preview",
+    "pack": "node scripts/pack.js"
+  },
+  "dependencies": {
+    "three": "^0.163.0"
+  },
+  "devDependencies": {
+    "@types/three": "^0.163.0",
+    "typescript": "^5.4.5",
+    "vite": "^5.2.11",
+    "vite-plugin-glsl": "^1.3.0"
+  }
+}
